@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TIC-TAC-TOE-GAME</title>
+</head>
+<body>
+    <div class="main">
+        <div>
+            <h1>بازی دوز</h1>
+            <p id="caption">
+        با کلیک کردن بر روی یک جعبه بازی را شروع کنید<br>
+        <b>O</b> بازیکن دوم
+        <b>X</b> بازیکن اول
+            </p>
+        </div>
+       
+        <br>
+        <div id="input_contianer">
+        <input type="text" class="box" id="b1" onclick="myFunc_1(); myFunc();" readonly>
+        <input type="text" class="box" id="b2" onclick="myFunc_2(); myFunc();"  readonly>
+        <input type="text" class="box" id="b3" onclick="myFunc_3(); myFunc();"  readonly>
+        <br>
+        
+        <input type="text" class="box" id="b4" onclick="myFunc_4(); myFunc();"  readonly>
+        <input type="text" class="box" id="b5" onclick="myFunc_5(); myFunc();"  readonly>
+        <input type="text" class="box" id="b6" onclick="myFunc_6(); myFunc();"  readonly>
+        <br>
+        
+        <input type="text" class="box" id="b7" onclick="myFunc_7(); myFunc();"  readonly>
+        <input type="text" class="box" id="b8" onclick="myFunc_8(); myFunc();"  readonly>
+        <input type="text" class="box" id="b9" onclick="myFunc_9(); myFunc();"  readonly>
+        </div>
+        <br>
+        <div>
+            <p id="print"></p>
+            <button id="btn-reset" onclick="func_reset()">از سرگیری بازی</button>
+        </div>
+       
+       
+    </div>
+    
+</body>
+<script src="javascript.js"></script>
+</html>
